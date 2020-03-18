@@ -10,72 +10,20 @@
     "serve": "NODE_ENV=production ts-node app/server.ts"
   },
   "dependencies": {
+    "ejs": "^3.0.1",
+    "eslint": "^6.8.0",
     "express": "^4.17.1",
     "ts-node": "^8.6.2",
-    "ejs": "^3.0.1",
     "typescript": "^3.8.3"
   },
   "devDependencies": {
     "@types/express": "^4.17.3",
     "@types/jest": "^25.1.4",
-    "@typescript-eslint/eslint-plugin": "^2.23.0",
-    "@typescript-eslint/parser": "^2.23.0",
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.9.0",
-    "eslint-import-resolver-typescript": "^2.0.0",
-    "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.2",
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.24.0",
     "jest": "^25.1.0",
     "prettier": "^1.19.1",
     "ts-jest": "^25.2.1"
-  },
-  "eslintConfig": {
-    "settings": {
-      "import/resolver": {
-        "typescript": {}
-      }
-    },
-    "extends": [
-      "plugin:@typescript-eslint/recommended",
-      "airbnb-base",
-      "prettier"
-    ],
-    "parser": "@typescript-eslint/parser",
-    "plugins": [
-      "prettier"
-    ],
-    "env": {
-      "es6": true
-    },
-    "rules": {
-      "import/extensions": 0,
-      "dot-notation": 0,
-      "@typescript-eslint/no-var-requires": 0,
-      "prettier/prettier": [
-        "error"
-      ],
-      "no-restricted-syntax": [
-        "error",
-        "ForInStatement",
-        "LabeledStatement",
-        "WithStatement"
-      ],
-      "no-underscore-dangle": "off",
-      "no-console": "off",
-      "lines-between-class-members": "off",
-      "class-methods-use-this": 0,
-      "import/prefer-default-export": 0,
-      "camelcase": [
-        "error"
-      ],
-      "indent": 2
-    },
-    "globals": {
-      "fetch": false
-    }
   },
   "prettier": {
     "printWidth": 80,
