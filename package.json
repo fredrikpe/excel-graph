@@ -1,32 +1,27 @@
 {
   "name": "excel-graph",
   "version": "1.0.0",
-  "license": "MIT",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "ts-node app/server.ts",
-    "test": "jest",
-    "lint": "eslint --ext .ts app/",
-    "lintfix": "eslint --ext .ts app/ --fix",
-    "serve": "NODE_ENV=production ts-node app/server.ts"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "ejs": "^3.0.1",
-    "eslint": "^6.8.0",
-    "express": "^4.17.1",
-    "ts-node": "^8.6.2",
-    "typescript": "^3.8.3"
+    "cytoscape": "^3.14.1",
+    "cytoscape-dagre": "^2.2.2",
+    "cytoscape-elk": "^1.1.10",
+    "evergreen-ui": "^4.23.0",
+    "next": "^9.2.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "xlsx": "^0.15.6"
   },
   "devDependencies": {
-    "@types/express": "^4.17.3",
-    "@types/jest": "^25.1.4",
-    "@typescript-eslint/eslint-plugin": "^2.24.0",
-    "@typescript-eslint/parser": "^2.24.0",
-    "jest": "^25.1.0",
-    "prettier": "^1.19.1",
-    "ts-jest": "^25.2.1"
-  },
-  "prettier": {
-    "printWidth": 80,
-    "singleQuote": true
+    "@types/node": "^13.7.7",
+    "typescript": "^3.8.3"
   }
 }
