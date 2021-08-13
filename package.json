@@ -15,7 +15,7 @@
     "cytoscape-dagre": "^2.2.2",
     "cytoscape-elk": "^1.1.10",
     "evergreen-ui": "^4.23.0",
-    "next": "^9.3.2",
+    "next": "^11.1.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "xlsx": "^0.15.6"
